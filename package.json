@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-handlebars",
+  "version": "1.0.0",
+  "description": "Restaurant-menu Handlebars",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/*.html --no-cache --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MashaKarri/restaurant-handlebars.git"
+  },
+  "author": "Mariya Dovgalyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MashaKarri/restaurant-handlebars/issues"
+  },
+  "homepage": "https://github.com/MashaKarri/restaurant-handlebars",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.0"
+  }
+}
